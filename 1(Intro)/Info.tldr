@@ -13,15 +13,16 @@
 			"com.tldraw.instance_presence": 6,
 			"com.tldraw.pointer": 1,
 			"com.tldraw.shape": 4,
-			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.user": 1,
 			"com.tldraw.asset.image": 6,
 			"com.tldraw.asset.video": 5,
+			"com.tldraw.asset.bookmark": 2,
 			"com.tldraw.shape.group": 0,
 			"com.tldraw.shape.text": 4,
 			"com.tldraw.shape.bookmark": 2,
 			"com.tldraw.shape.draw": 4,
 			"com.tldraw.shape.geo": 11,
-			"com.tldraw.shape.note": 10,
+			"com.tldraw.shape.note": 12,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
 			"com.tldraw.shape.arrow": 8,
@@ -231,7 +232,15 @@
 			"typeName": "pointer"
 		},
 		{
-			"x": 1100.52814307043,
+			"name": "",
+			"color": "#E34BA9",
+			"imageUrl": "",
+			"meta": {},
+			"id": "user:MSu_wG-MmSqSKKhDCX0WQ",
+			"typeName": "user"
+		},
+		{
+			"x": 1110.7850743423674,
 			"y": 144.3080387772731,
 			"rotation": 0,
 			"isLocked": false,
@@ -240,8 +249,8 @@
 			"id": "shape:0szcqg6DOchgMrcii3ZFA",
 			"type": "geo",
 			"props": {
-				"w": 505.5909260731046,
-				"h": 390.99031616320093,
+				"w": 540.4644923976919,
+				"h": 425.8638824877883,
 				"geo": "rectangle",
 				"dash": "draw",
 				"growY": 0,
@@ -249,7 +258,7 @@
 				"scale": 1,
 				"color": "black",
 				"labelColor": "black",
-				"fill": "none",
+				"fill": "semi",
 				"size": "m",
 				"font": "draw",
 				"align": "middle",
@@ -268,20 +277,20 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -47.213713751461796,
-			"y": -48.245762823383245,
-			"z": 0.593365079413277,
+			"x": 163.85211107231999,
+			"y": -119.50342506470943,
+			"z": 0.4874752367386731,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"editingShapeId": "shape:9ZnDOK9DK4Ow8f7r1dDlL",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:9ZnDOK9DK4Ow8f7r1dDlL"
+				"shape:0szcqg6DOchgMrcii3ZFA"
 			],
-			"hoveredShapeId": "shape:9ZnDOK9DK4Ow8f7r1dDlL",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -519,7 +528,9 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
+				"tldraw:color": "light-blue",
+				"tldraw:fill": "semi",
+				"tldraw:dash": "dashed"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -535,7 +546,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 1091,
-				"h": 406
+				"h": 314
 			},
 			"insets": [
 				false,
@@ -552,9 +563,9 @@
 			"isFocused": true,
 			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
-			"isChangingStyle": false,
+			"isChangingStyle": true,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
