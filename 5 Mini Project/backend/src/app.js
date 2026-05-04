@@ -3,8 +3,10 @@ import multer from 'multer';
 // import uploadImage from './services/storage.service';
 import uploadImage from './services/storage.service.js';
 import postsModel from './models/post.model.js';
+import cors from 'cors';
 
 const app = express();
+app.use(cors()); // ye line hume cross-origin resource sharing (CORS) ko enable karne me madad karegi, jisse hum apne frontend application se backend API ko access kar sakte hai. without this line, hum apne frontend application se backend API ko access nahi kar paenge, kyunki browser security ke wajah se cross-origin requests ko block kar deta hai. therefore, agar aap apne frontend application se backend API ko access karna chahte hai, to aapko app.use(cors()) ko apne express app me include karna zaroori hai.
 app.use(express.json()); // it is a middleware that helps us to parse the incoming request body as JSON. when we send data from the client in JSON format, this middleware will parse that data and convert it into a JavaScript object that we can access through req.body. without this middleware, req.body would be undefined, and we wouldn't be able to access the data sent from the client. therefore, if you want to handle JSON data in your express app, it is essential to include app.use(express.json()) in your app setup. raw format ka data in json jo hum postman se send karte hai uski baat ho rahi hai wo padne ke liye ye middleware use karna zaroori hai.
 
 const upload = multer({
