@@ -3072,7 +3072,7 @@
       "width": 84.99335989375834,
       "height": 0,
       "angle": 0,
-      "strokeColor": "#1e1e1e",
+      "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
       "fillStyle": "solid",
       "strokeWidth": 2,
@@ -3086,11 +3086,11 @@
         "type": 2
       },
       "seed": 1849747318,
-      "version": 20,
-      "versionNonce": 1644353834,
+      "version": 21,
+      "versionNonce": 81585526,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1778301672005,
+      "updated": 1778310759489,
       "link": null,
       "locked": false,
       "points": [
